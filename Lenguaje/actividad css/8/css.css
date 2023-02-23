@@ -1,0 +1,26 @@
+img{
+	display: block;
+	margin: auto;
+	margin-top: 5em;
+}
+
+
+a:link {
+	margin: 1em 0;
+	color: #CC0000;
+	float: left;
+	clear: left;
+	padding: 2px;
+	font-size: larger;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #CC0000;
+	color: #FFF;
+}
+
+a:visited {
+	color: #ccc;
+}
+

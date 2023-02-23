@@ -1,0 +1,14 @@
+#vista {
+    background-color: #E0E0E0;
+    padding: .5em;
+    height: 1.2em;
+}
+
+.derecha   { float: right; }
+.izquierda { float: left;  }
+
+img{
+    display: block;
+    margin: auto;
+    margin-top: 5em;
+}

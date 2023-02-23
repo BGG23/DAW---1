@@ -1,0 +1,89 @@
+body{
+    background-color: #ADD8E6;
+    font: 1em arial;
+}
+
+h1{
+    text-align: center;
+}
+
+#bloque {
+    background-color: white;
+    margin: 0 auto;
+    width: 497px;
+    height: 627px;
+    color: #3B3E92;
+    font-weight: bold; 
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.384);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2;
+    animation-direction: normal;
+}
+
+@keyframes animacion {
+    0% {
+      opacity: 0;
+      transform: translateX(-1000px);
+    }
+    20%,80% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+div{
+    width: auto;
+    padding: 20px 0 0 35px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+select#pais, input{
+    width: 325px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: black;
+}
+
+input:hover, select:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+input:focus, select:focus{
+    background-color: #a6e6fcd0;
+}
+
+#casilla{
+    width: 15px;
+    height: 15px;
+    vertical-align: baseline;
+}
+
+fieldset{
+    border-color: black;
+    justify-content: center;
+    width: 80%;
+    border-radius: 8px;
+    margin: 25px 0 -25px 35px;
+}
+
+button#reset{
+    float: left; 
+    margin: 5px 0 0 50px; 
+    font-size: medium;
+    justify-content: center;
+}
+button#submit{
+    float: right;
+    margin: 5px 50px 0 0  ;
+    font-size: medium;
+}

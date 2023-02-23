@@ -1,0 +1,39 @@
+/*Belén Gamero García*/
+p strong, p a{
+    color:#FF0300
+}
+
+table {
+    width: 400px;
+    border: 1px solid #000000;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 0.3em;
+    table-layout:auto;
+}
+span.especial{
+    color:#890280
+}
+th.especial, td strong{
+    color:#FFA500
+}
+
+th{
+    color:#FF0300
+}
+td, div p a{
+    color:#3C8E15
+}
+p em, caption{
+    color:#2847FF
+}
+div#adicional{
+    color:#9D9C39
+}
+span#especial{
+    color:#FF5BFF
+}
+

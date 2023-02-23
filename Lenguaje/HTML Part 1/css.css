@@ -1,0 +1,72 @@
+
+/* esto es solo para el menu */
+html {
+    box-sizing: border-box;
+}
+
+.menu {
+    border: 6px outset #e9e9e9da;
+    border-radius: 10px;
+    display: flex;
+    font-size: large;
+    margin: auto;
+    background-color: #008cffbe;
+    width: 65%;
+}
+
+.menu li{
+    padding: 10px 15px;
+    display: block;
+    width: auto;
+    height: 30px;
+    text-align: center;
+}
+
+/* esto ya es el resto */
+body {
+    background-color: #26d1bd;
+    font-family: sans-serif
+}
+
+h1, h2{
+    text-align: center;
+}
+dir{
+    border: 6px outset #e9e9e9da;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: block;
+    font-size: large;
+    background-color: #ffffff8a;
+}
+
+iframe{
+    margin: 0 auto;
+    display: block;
+    border: 6px outset #e9e9e9da;
+    border-radius: 10px;
+    height: 500px;
+    width: 90%;
+}
+
+.centrado{
+    margin: 10px auto;
+    display:block;
+}
+map {
+    display: inline;
+}
+
+.uno{
+    color: #911414;
+}
+.dos{
+    color: #448a36;
+}.tres{
+    color: #6b095e;
+}.cuatro{
+    color: #ac2b85;
+}.cinco{
+    color: #002d55;
+}
+
